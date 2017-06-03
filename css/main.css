@@ -1,0 +1,80 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  /* Enlaza la tipografia Open Sans */
+}
+
+a{
+ color: #373B47;
+ text-decoration: none;
+}
+
+a:hover{
+ color: #E95853;
+}
+
+#home{
+	height: 600px;
+	margin-top: 70px;
+
+	background-image: url(../assets/images/bg-home.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	color: whitesmoke;
+}
+
+/*services*/
+
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;
+}
+
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+footer{
+	background-color: #373B47;
+	color: whitesmoke;
+ 	text-align: center;
+ 	height: 70px;
+ 	padding-top: 7px;
+
+}
+
+#work.flex-container{
+	align-items: flex-start;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 50px;
+}
+
+img{
+	width: 100%;
+}
+
+i{
+	background-color: whitesmoke;
+}
+
+#imagenes.flex-container{/*alinear en filas las imagenes ordenadas en div dentro de otro div que a su vez está en una section*/
+
+flex-direction: row;
+justify-content: center;
+
+}

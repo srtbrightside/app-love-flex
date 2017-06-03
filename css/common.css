@@ -2,3 +2,82 @@
  * Clases reutilizables para el proyecto
  * (Aquí pueden ir las clases de tu grid)
  */
+ .mb-0 {
+   margin-bottom: 0;
+ }
+
+ .mt-0 {
+   margin-top: 0;
+ }
+
+ .text-uppercase {
+   text-transform: uppercase;
+ }
+
+ .link{
+     font-weight: 700;
+     padding: 21px;
+     display: inline-block;
+ }
+
+ /* Contenedor Flexbox*/
+ .flex-container{
+ 	display: flex;
+ }
+
+ .menu{
+ 	background-color: white;
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ }
+
+ .menu.flex-container{
+ 	justify-content: flex-start;
+ }
+
+ .logo-container{
+ 	margin-left: auto;
+ 	margin-right: 20px;
+
+ }
+
+ .flex-container .logo{
+ 	width: 70px;
+ 	height: 70px;
+ }
+
+ .text-home{
+ 	font-size: 2.4em;
+ }
+
+ .btn-home{
+  	background: #2Ecc71;
+  	color: #fff;
+  	padding: 11px 20px;
+  	border-radius: 1px;
+  	font-weight: 500;
+  	text-transform: uppercase;
+  	margin-top: 63px;
+  	display: inline-block;
+  	font-size: 14px;
+  }
+
+  .box-services{
+  	font-size: 1.2em;
+  	font-weight: bold;
+  }
+
+  .imagen{
+  	width: 80%;
+  }
+
+  .galeria-imagen{
+  	padding: 50px;
+
+  }
+
+ .grupo-imagenes{
+ 	text-align: center;
+ }
